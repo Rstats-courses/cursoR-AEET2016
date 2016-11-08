@@ -12,10 +12,10 @@ Sevilla, 14-18 Noviembre 2016.
 
 ## Lugar de celebración
 
-Laboratorio de SIG y Teledetección (LAST)
-Estación Biológica de Doñana (EBD-CSIC)
-Avda. Américo Vespucio s/n
-41092 Sevilla
+Laboratorio de SIG y Teledetección (LAST)  
+Estación Biológica de Doñana (EBD-CSIC)  
+Avda. Américo Vespucio s/n  
+41092 Sevilla  
 
 [Mapa](https://goo.gl/maps/zE1pPz5qzyq)
 
@@ -33,8 +33,8 @@ Lunes a viernes de 9:30 a 13:30, y de 15:00 a 17 horas.
 |:-:|:---------------------------------:|:---------------:|
 | L |         Programación en R         |      ggplot     |
 | M |           Modelos mixtos          | Programación II |
-| X |         Análisis bayesiano        | Rmarkdown - Git |
-| J |       Análisis multivariante      |   Simulaciones  |
+| X |         Análisis bayesiano        |  Simulaciones   |
+| J |       Análisis multivariante      | Rmarkdown - Git |
 | V | GIS en R - análisis datos propios |  datos propios  |
 
 
