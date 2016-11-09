@@ -54,4 +54,8 @@ Dispondremos de acceso wifi para poder descargar paquetes y software adicional d
 
 Para cuestiones administrativas (inscripción, facturas, etc) contactar con Leyre Jiménez-Eguizabal (info@aeet.org). Para otras cuestiones contactar con Ignasi Bartomeus (nacho.bartomeus@gmail.com, Telf. 954 232340).
 
+## Otra Info
+
+La red wifi es EBD_Invitados, el user es guest y la clave os la daremos el mismo lunes al empezar.
+
 
