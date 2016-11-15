@@ -115,14 +115,15 @@ $(document).ready(function () {
 <h1>Intro</h1>
 <p>author: I. Bartomeus date: Nov 2016 autosize: true</p>
 </div>
-<div id="los-siguientes-5-dias-de-vuestra-vida" class="section level1">
-<h1>Los siguientes 5 días de vuestra vida</h1>
+<div id="como-seran-los-siguientes-5-dias-de-vuestra-vida" class="section level1">
+<h1>Como serán los siguientes 5 días de vuestra vida?</h1>
 <ul>
 <li>Introducción (yo hablando; 45’)</li>
-<li>Manipulación Básica de datos (vosotros picando código)</li>
-<li>Lectura, creación y manipulación avanzada de datos (vosotros picando código)</li>
-<li>Programación básica con R, paquetes externos y modelos lineares (vosotros picando código)</li>
-<li>Últimos desarrollos para manipular y visualizar datos en R (vosotros picando código)</li>
+<li>Programacióon en R (yo) + Visualización de datos (Paco)</li>
+<li>Modelos mixtos (yo) + Modelos nulos (yo)</li>
+<li>Bayesiano (Paco) + Simulaciones (yo)</li>
+<li>Multivariante (yo) + git (Paco)</li>
+<li>GIS (Paco) + “a jugar” (Paco y yo)</li>
 </ul>
 <p>Feedback: <a href="nacho.bartomeus@gmail.com">Email: nacho.bartomeus@gmail.com</a></p>
 <p><span class="citation">[Twitter @ibartomeus]</span>(<a href="https://twitter.com/ibartomeus" class="uri">https://twitter.com/ibartomeus</a>)</p>
@@ -149,10 +150,8 @@ $(document).ready(function () {
 <ul>
 <li>Download R</li>
 <li>R desde Rstudio (download Rstudio)</li>
-<li><a href="https://github.com/ibartomeus/LearnR">Material del curso</a></li>
+<li><a href="https://github.com/Rstats-courses/cursoR-AEET2016">Material del curso</a></li>
 <li>Carpeta ‘ejercicios’ y ‘guia’</li>
-<li>Dias 2, 3, y 4 trabajaremos sobre nuestro propio proyecto.</li>
-<li>Proyecto: Explorar unos datos de pelicula.</li>
 </ul>
 </div>
 <div id="y-si-no-se-algo-uso-de-stackoverflow." class="section level1">
@@ -179,8 +178,12 @@ $(document).ready(function () {
 <div id="la-verdadera-ventaja-de-usar-r-reproducibilidad" class="section level1">
 <h1>La verdadera ventaja de usar R: Reproducibilidad</h1>
 <blockquote>
-<p>Your most important collaborator is your future self. It’s important to make a workflow that you can use time and time again, and even pass on to others in such a way that you don’t have to be there to walk them through it. <a href="http://berkeleysciencereview.com/reproducible-collaborative-data-science/">Source</a></p>
+<p>It’s important to make a workflow that you can use time and time again, and even pass on to others in such a way that you don’t have to be there to walk them through it. <a href="http://berkeleysciencereview.com/reproducible-collaborative-data-science/">Source</a></p>
 </blockquote>
+<blockquote>
+<p>Your closest collaborator is you 6 months ago, and you don’t respond to emails. <small>P. Wilson</small></p>
+</blockquote>
+<p>Interested: <a href="http://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1178">read our paper</a></p>
 </div>
 <div id="no-puedes-reproducir" class="section level1">
 <h1>No puedes reproducir</h1>
@@ -189,10 +192,6 @@ $(document).ready(function () {
 <div id="no-puedes-reproducir-1" class="section level1">
 <h1>No puedes reproducir</h1>
 <p>…lo que has perdido. Y si necesitas un archivo que existio hace 1, 10 o 100 dias? - Incremental backups (minimo) - Version control (mejor). <strong>Git</strong> (y <strong>GitHub</strong>) es el más popular</p>
-</div>
-<div id="presentaciones" class="section level1">
-<h1>Presentaciones</h1>
-<p>Yo soy ecólogo, y tu?</p>
 </div>
 <div id="abrir-r-studio" class="section level1">
 <h1>Abrir R studio</h1>
@@ -220,30 +219,33 @@ figures/</code></pre>
 </blockquote>
 <p>El mio es <a href="https://github.com/ibartomeus/misc_func/blob/master/Style.md">este</a> El de google <a href="https://google.github.io/styleguide/Rguide.xml">este</a></p>
 </div>
-<div id="introduccion-a-rmarkdown." class="section level1">
-<h1>Introducción a Rmarkdown.</h1>
-<blockquote>
-<p>Your closest collaborator is you 6 months ago, and you don’t respond to emails. <small>P. Wilson</small></p>
-</blockquote>
-<ol style="list-style-type: decimal">
-<li><p>Prepare data (<strong>EXCEL</strong>)</p></li>
-<li><p>Analyse data (<strong>R</strong>)</p></li>
-<li><p>Write report/paper (<strong>WORD</strong>)</p></li>
-</ol>
-</div>
-<div id="introduccion-a-rmarkdown.-1" class="section level1">
-<h1>Introducción a Rmarkdown.</h1>
+<div id="resources" class="section level1">
+<h1>Resources</h1>
 <ul>
-<li>Rstudio</li>
-<li>knitr</li>
-<li>pandoc</li>
+<li><a href="http://cran.r-project.org">CRAN</a> - The Comprehensive R Archive Network. Ground zero for R.</li>
+<li><a href="https://github.com/">GitHub</a> - The GitHub page.</li>
+<li><a href="http://www.rstudio.com">RStudio</a> - the integrated development environment for R. Makes many things easier.</li>
+<li><a href="http://adv-r.had.co.nz">Advanced R</a> - the companion website for “Advanced R”, a book in Chapman &amp; Hall’s R Series. Detailed, in depth look at many of the issues covered here.</li>
+</ul>
+</div>
+<div id="resources-1" class="section level1">
+<h1>Resources</h1>
+<ul>
+<li><a href="https://cran.r-project.org/web/views/">CRAN task views</a> resumenes de tareas (e.g. Bayesiano)</li>
+<li>e.g. <a href="http://cran.r-project.org/web/views/ReproducibleResearch.html"><strong>Reproducible Research</strong></a></li>
+<li><a href="https://ropensci.org/">RopenScience</a>. Paquetes brutales para hacer ciencia abierta</li>
+</ul>
+</div>
+<div id="resources-2" class="section level1">
+<h1>Resources</h1>
+<ul>
+<li><a href="http://www.statmethods.net/">Quick-R</a>: Donde yo voy ha consultar las recetas (PCA’s, glm’s, etc…)</li>
+<li>Cursos para empezar: <em><a href="http://rforcats.net/">r for cats</a> </em><a href="http://r-bio.github.io/01-intro-R/">r-bio</a> *<a href="https://www.datacamp.com/courses/free-introduction-to-r?utm_source=blog_launch_new_intro&amp;utm_medium=blog&amp;utm_campaign=launch_new_intro">datacamp</a></li>
 </ul>
 </div>
 <div id="mas" class="section level1">
 <h1>Más?</h1>
-<ul>
-<li><a href="https://sevillarusers.wordpress.com/">SevillaR</a></li>
-</ul>
+<p>y el <a href="https://sevillarusers.wordpress.com">grupo de usuarios de R de Sevilla</a></p>
 </div>
 
 
